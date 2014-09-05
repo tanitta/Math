@@ -1,9 +1,16 @@
 namespace "trit"{
 	namespace "math"{
 		namespace "linear_algebra"{
-			class "Vector"{
+			class "vector"
+			:inherits(trit.math.linear_algebra.matrix)
+			{
 				metamethod"_init"
-				:body(function(self)
+				:attributes(override)
+				:body(function(self, dim)
+-- 					self.dim = {};
+-- 					self.dim.x = 1;
+-- 					self.dim.y = dim;
+-- 					self:create_table();
 				end);
 
 				metamethod"__call"
