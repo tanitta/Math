@@ -9,8 +9,6 @@ namespace "trit"{
 				metamethod"__call"
 				:body(function(self)
 				end);
-
-
 			}
 		}--linear_algebra
 	}--math
