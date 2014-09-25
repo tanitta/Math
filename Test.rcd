@@ -1,0 +1,29 @@
+// [RCD] 
+Val
+{
+}
+Key
+{
+}
+Body
+{
+	Core() { }
+}
+Lua
+{spirytus = {};
+	open_spirytus = loadlib("./Spirytus.DLL", "rc_OpenSpirytus");
+	open_spirytus();
+require("ttata/color.lua")
+require("hikeo/2Dlinelib.lua")
+require("cel/Science/BasePhysic.lua")
+require("hikeo/stdlib.lua")
+require "Boot" {
+	"cel/Equa",
+	--"ttata/FileIO",
+	"ttata/Math"
+}
+
+func = trit.math.Interpolation.EasySplineCurve({{0,0},{0,1}})
+
+function OnFrame()
+end}
