@@ -62,12 +62,24 @@ namespace"trit"{
 -- 				    		out(l,x)
 -- 				    	end
 --
-				    	local A, B, C, D
+				    	local A, B, C, D, h, dy
 
 						A = {}
 						B = {}
 						C = {}
 						D = {}
+						h = {}
+						dy = {}
+
+						local a, b, d
+						a = {}
+						b = {}
+						-- C
+						
+						for i = 1, self.n-1 do
+						end
+
+						
 			    	end);
 			};
 
